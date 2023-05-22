@@ -1,0 +1,12 @@
+<div class="format">
+  <h1>Stupid Coaching</h1>
+  <div class="border-start border-5 p-3 answer">
+    <p class="mb-0"><%= @query %><br><i>-You</i></p>
+  </div>
+  <div class="border-start border-5 p-3 bg-warning text-dark bg-opacity-25 answer">
+    <p class="mb-0"><strong><%= @answer %></strong><br><i>-Your Coach</i></p>
+  </div>
+  <div>
+  <%=link_to "Ask a new question", ask_path, id:"link"%>
+  </div>
+</div>
